@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Kadai - Your Sports & Apparel Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styling for a vibrant, product-focused look */
+        .navbar-custom {
+            background-color: #007bff; /* Primary color for the brand */
+        }
+        .navbar-custom .navbar-brand {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .header-section {
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('placeholder-bg.jpg'); /* Placeholder image */
+            background-size: cover;
+            padding: 4rem 0;
+            border-bottom: 3px solid #007bff;
+        }
+        .product-card-img {
+            height: 200px; /* Fixed height for product images */
+            object-fit: contain; /* Ensures images fit without cropping */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">👕 Online Kadai</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Product Items</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+                    <a href="register.html" class="btn btn-warning">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <header class="header-section text-center mb-5">
+            <h1 class="display-4 text-dark">Welcome to Online Kadai!</h1>
+            <p class="lead text-secondary">Gear up for the game. Shop T-Shirts, Footballs, and essential Accessories.</p>
+        </header>
+
+        <section id="products" class="mb-5">
+            <h2 class="text-center mb-4 text-primary">Our Top Picks</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="placeholder_tshirt.jpg" class="card-img-top product-card-img" alt="Product Image: Sports T-shirt">
+                        <div class="card-body">
+                            <h5 class="card-title">Pro-Fit Dry-Wick T-Shirt</h5>
+                            <p class="card-text text-muted">The perfect athletic tee for comfort and performance.</p>
+                            <p class="lead fw-bold text-success">₹ 899</p>
+                            <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="placeholder_football.jpg" class="card-img-top product-card-img" alt="Product Image: Official Size Football">
+                        <div class="card-body">
+                            <h5 class="card-title">Official Match Football (Size 5)</h5>
+                            <p class="card-text text-muted">Durable synthetic leather for competitive play.</p>
+                            <p class="lead fw-bold text-success">₹ 1,499</p>
+                            <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="placeholder_socks.jpg" class="card-img-top product-card-img" alt="Product Image: Ankle Socks">
+                        <div class="card-body">
+                            <h5 class="card-title">Performance Ankle Socks (3-Pack)</h5>
+                            <p class="card-text text-muted">Breathable, cushioned design for all-day comfort.</p>
+                            <p class="lead fw-bold text-success">₹ 399</p>
+                            <a href="#" class="btn btn-outline-primary w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="mt-5 pt-4 border-top">
+            <h2 class="text-center mb-4 text-dark">Your Account Hub</h2>
+            <div class="row text-center">
+                
+                <div class="col-md-3 mb-3">
+                    <div class="p-4 border rounded shadow-sm bg-light">
+                        <h4><a href="orders.html" class="text-decoration-none text-info">📦 My Orders</a></h4>
+                        <small class="text-muted">Track all your purchases.</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <div class="p-4 border rounded shadow-sm bg-light">
+                        <h4><a href="wishlist.html" class="text-decoration-none text-danger">❤ Wishlist</a></h4>
+                        <small class="text-muted">Save your favorite gear.</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <div class="p-4 border rounded shadow-sm bg-light">
+                        <h4><a href="#reviews-section" class="text-decoration-none text-warning">⭐ Reviews</a></h4>
+                        <small class="text-muted">See product ratings.</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                    <div class="p-4 border rounded shadow-sm bg-light">
+                        <h4><a href="#support" class="text-decoration-none text-success">🆘 Customer Support</a></h4>
+                        <small class="text-muted">Get assistance and report issues.</small>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white mt-5 p-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Online Kadai. All rights reserved.</p>
+            <div id="contact" class="d-flex justify-content-center">
+                <a href="contact.html" class="text-white mx-2 text-decoration-none">Contact Us</a> | 
+                <a href="about.html" id="about" class="text-white mx-2 text-decoration-none">About Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
